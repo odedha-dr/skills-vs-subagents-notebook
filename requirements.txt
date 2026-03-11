@@ -1,0 +1,5 @@
+anthropic>=0.50.0
+matplotlib>=3.9.0
+python-dotenv>=1.0.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
