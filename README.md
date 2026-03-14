@@ -7,6 +7,8 @@ created: 2026-03-10
 
 # Skills vs Sub-Agents: An Interactive Exploration
 
+![Skills vs Sub-Agents](sk-vs-sub.jpg)
+
 A Jupyter notebook that walks through the two fundamental patterns for extending AI coding assistants — skills (context injection) and sub-agents (context isolation) — with live API calls, conversation traces, and inline visualizations.
 
 ## Quick Start
