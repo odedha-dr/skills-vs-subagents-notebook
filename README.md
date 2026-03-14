@@ -12,9 +12,13 @@ A Jupyter notebook that walks through the two fundamental patterns for extending
 ## Quick Start
 
 ```bash
-cp .env.example .env   # add ANTHROPIC_API_KEY
+cp .env.example .env   # add your ANTHROPIC_API_KEY
 uv sync
 uv run jupyter notebook notebook.ipynb
 ```
 
 The notebook ships with pre-recorded outputs. Re-run cells to reproduce with your own API key.
+
+## What's Included
+
+The project is fully self-contained. The `src/` directory contains a bundled sample codebase (from the MCP benchmark project) that the notebook's agent loops explore during experiments. No external dependencies beyond an Anthropic API key are needed.
